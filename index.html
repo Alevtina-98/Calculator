@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.1/math.min.js"></script>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" method="post" id="form">
+        <div class="container-grid">
+          <input type="text" value="0" class="start" />
+
+          <!-- 1 row -->
+          <input type="button" value="7" class="num" />
+          <input type="button" value="8" class="num" />
+          <input type="button" value="9" class="num" />
+          <input type="button" value="/" class="num" />
+
+          <!-- 2 row -->
+          <input type="button" value="4" class="num" />
+          <input type="button" value="5" class="num" />
+          <input type="button" value="6" class="num" />
+          <input type="button" value="*" class="num" />
+
+          <!-- 3 row -->
+
+          <input type="button" value="1" class="num" />
+          <input type="button" value="2" class="num" />
+          <input type="button" value="3" class="num" />
+          <input type="button" value="-" class="num" />
+
+          <!-- 4 row -->
+          <input type="button" value="0" class="num" />
+          <input type="button" value="+" class="num" />
+          <input type="button" value="," class="num" />
+          <input type="button" value="%" class="num" />
+
+          <!-- 5 row -->
+          <input type="button" value="=" class="equals" />
+          <input type="button" value="C" class="clean" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
