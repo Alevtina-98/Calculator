@@ -4,8 +4,10 @@ This project is a simple and efficient calculator designed to solve mathematical
 
 ## Installation:
 To get started, clone the repository and install the necessary dependencies:
+
 **git clone https://github.com/Alevtina-98/Calculator.git** 
 **npm install math-expression-evaluator**
 
 ## Usage:
+
 Once installed, you can use the Calculator to perform quick and accurate mathematical operations. Input your expression and get the result instantly.
