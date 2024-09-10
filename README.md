@@ -6,6 +6,7 @@ This project is a simple and efficient calculator designed to solve mathematical
 To get started, clone the repository and install the necessary dependencies:
 
 **git clone https://github.com/Alevtina-98/Calculator.git** 
+
 **npm install math-expression-evaluator**
 
 ## Usage:
